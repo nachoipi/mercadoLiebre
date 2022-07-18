@@ -1,0 +1,41 @@
+* {
+    font-family: Roboto;
+}
+
+/* --- header --- */
+
+header {
+    background-color: #EAC926;
+}
+
+header ul {
+    list-style: none;
+}
+
+/* --- main --- */
+
+main {
+    width: 90%;
+    padding: auto;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+i {
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+article {
+    margin: 10px;
+    background-color: white;
+    
+}
+
+.article-content {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
