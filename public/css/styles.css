@@ -9,8 +9,24 @@ header {
     background-color: #EAC926;
 }
 
+.logo {    
+    width: 131px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sales {
+    text-align: center;
+}
+
 header ul {
     list-style: none;
+    padding-left: 0px;
+    display: none;
+}
+
+.burger-menu {
+    text-align: center;
 }
 
 .burger-menu i {
@@ -18,6 +34,9 @@ header ul {
     color: white;
     width: 15px;
     height: 15px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 13px;
 }
 
 /* --- main --- */
@@ -64,14 +83,25 @@ section i {
 /* --- Tablets --- */
 
 @media (min-width: 360px) {
-    * {
-        background-color: blue;
+    
+    header ul {
+        display: block;
+    }
+
+    .burger-menu i {
+        display: none;
     }
 }
 /* --- Laptop --- */
 
 @media (min-width: 768px){
-    * {
-        background-color: aqua;
+    
+    header ul {
+        display: block;
     }
+
+    .burger-menu i {
+        display: none;
     }
+
+}
