@@ -1,5 +1,6 @@
 * {
     font-family: Roboto;
+    font-size: 12px;
 }
 
 /* --- header --- */
@@ -12,17 +13,23 @@ header ul {
     list-style: none;
 }
 
+.burger-menu i {
+    background-color: #03264C;
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+
 /* --- main --- */
 
 main {
-    width: 90%;
     padding: auto;
     margin: auto;
     background-color: #ebebeb;
 }
 
-i {
-    font-size: 2em;
+ul i {
+    font-size: 1em;
 }
 
 img {
@@ -39,3 +46,32 @@ article {
     border-top: 1px solid #ebebeb;
     padding: 15px;
 }
+
+/* --- footer --- */
+
+footer section {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section i {
+    font-size: 2em
+}
+
+/* --- querys --- */
+
+/* --- Tablets --- */
+
+@media (min-width: 360px) {
+    * {
+        background-color: blue;
+    }
+}
+/* --- Laptop --- */
+
+@media (min-width: 768px){
+    * {
+        background-color: aqua;
+    }
+    }
