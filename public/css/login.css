@@ -1,0 +1,58 @@
+* {
+    font-family: Roboto;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.user-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.user-form p {
+    padding-bottom: 2rem;
+    width: 60%;
+    font-size: 1.33rem;
+}
+
+.user-form input {
+    border-style: none;
+    height: 2rem;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.user-form button {
+    border-style: none;
+    background-color: #2c46bb;
+    color: white;
+    height: 2rem;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.user-form button:hover {
+    background-color: #0022AA;
+}
+
+.user-form .submit {
+    padding-bottom: 0rem;
+}
+
+/* --- Laptop --- */
+
+@media (min-width: 768px){
+    
+    .footer-icons {
+        display: flex;
+        width: 100wv;
+    }
+   
+}

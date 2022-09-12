@@ -134,24 +134,6 @@ ul i {
     position: relative;
 }
 
-.display-articulos {
-    background-color: lightgrey;
-    padding: 5px;
-    border: 8px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 16px;
-    max-width: 350px;
-    transition: all 1000ms;
-    position: relative;
-}
-
-.display-description {
-    position: relative;
-    display: block;
-}
-
 .article-content-prices {
     display: flex;
     flex-direction: row;
@@ -192,6 +174,7 @@ ul i {
     font-size: 1.33rem;
     display: none;
 }
+
 
 /* --- footer --- */
 
@@ -345,5 +328,11 @@ ul i {
         box-shadow: 0px 0px 10px rgb(20, 20, 20);
     }
 
-    
+    .footer-icons {
+        display: flex;
+        width: 100wv;
+    }
+   
 }
+
+
